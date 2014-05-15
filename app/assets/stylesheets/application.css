@@ -15,7 +15,7 @@
 html {
   height: 100%;
   width: 100%;
-  outline: dashed green 1px;
+/*  outline: dashed green 1px;*/
   margin: 0;
   padding: 0;
 }
@@ -23,7 +23,7 @@ html {
 body {
   height: 100%;
   width: 100%;
-  outline: dashed blue 1px;
+/*  outline: dashed blue 1px;*/
   margin: 0;
   padding: 0;
 
@@ -34,7 +34,7 @@ body {
   min-height: 100%;
   display: block;
   float: left;
-  outline: solid black 1px;
+/*  outline: solid black 1px;*/
   padding: 10px;
 }
 
@@ -42,5 +42,5 @@ body {
   padding: 10px;
   display: block;
   overflow: hidden;
-  outline: solid red 1px;
+/*  outline: solid red 1px;*/
 }

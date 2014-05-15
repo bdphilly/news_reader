@@ -1,7 +1,15 @@
 window.NewsReader.Routers.AppRouter = Backbone.Router.extend({
   routes: {
-    "": "index",
+    "": "blank",
     "feeds/:id": "show",
+  },
+
+  blank: function() {
+
+  },
+
+  initialize: function() {
+    this.index();
   },
 
   index: function () {
